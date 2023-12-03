@@ -1,0 +1,103 @@
+
+
+.plan-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top: 5rem;
+    background-color:gray;
+}
+
+.plans{
+
+    display: flex;
+    gap:2rem;
+    background-color: rgb(197, 165, 165);
+    padding-top:3rem ;
+    padding-left: 13rem;
+}
+
+.plans div{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    width: 20rem;
+    gap:1rem;
+    text-align: left;
+}
+
+.plans div:nth-child(2){
+ background-color: rgb(255, 136, 0);
+ transform: scale(1.1);
+}
+
+
+.plans div span:nth-of-type(1){
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.plans div span:nth-of-type(2){
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.plans div span:nth-of-type(3){
+
+    color: white;
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+.plans div span:nth-of-type(4){
+
+    color: white;
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+.plans div span:nth-of-type(5){
+
+    color: white;
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+.plans div span:nth-of-type(6){
+
+    color: white;
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+.plans div span:nth-of-type(7){
+
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.plans div button{
+
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+    margin-left: 2.5rem;
+}
+
+.plans div button:hover{
+
+   color: orange;
+}
